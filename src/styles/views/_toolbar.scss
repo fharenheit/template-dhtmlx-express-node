@@ -1,0 +1,17 @@
+.dhx_demo-toolbar {
+	border-bottom: 1px solid #e4e4e4;
+
+	.dhx_toolbar {
+		padding-left: 20px;
+		padding-right: 20px;
+
+		.dhx_toolbar__item:not(:last-child) {
+			margin-right: 8px;
+		}
+	}
+
+	&__search {
+		flex: 1 0 auto;
+		padding-right: 4px;
+	}
+}

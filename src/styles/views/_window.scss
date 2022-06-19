@@ -1,0 +1,10 @@
+.dhx_demo-window {
+	&__buttons {
+		justify-content: flex-end;
+		flex: 0 0 auto;
+
+		.dhx_layout-cell:not(:last-child) {
+			margin-right: 8px;
+		}
+	}
+}

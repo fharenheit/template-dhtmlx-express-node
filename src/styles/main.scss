@@ -1,0 +1,85 @@
+@import "utils/variables";
+@import "utils/mixins";
+
+@import "views/info";
+@import "views/main";
+@import "views/grid-card";
+@import "views/sidebar";
+@import "views/toolbar";
+@import "views/window";
+
+html,
+body,
+.demo--container {
+	height: 100%;
+	line-height: $mainLineHeight;
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	font-weight: $mainFontWeight;
+	color: $mainFontColor;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#top_layout {
+	width: 100%;
+	height: 100%;
+	background-color: #f7f7f7;
+
+	display: grid;
+	grid-template-columns: 245px 1fr 350px;
+	grid-template-rows: 57px 1fr;
+	grid-template-areas: "sidebar explorer explorer" "sidebar explorer explorer";
+
+	.dhx_demo-sidebar {
+		grid-area: sidebar;
+	}
+
+	.dhx_demo-explorer {
+		grid-area: explorer;
+		display: grid;
+		grid-template-columns: 1fr 350px;
+		grid-template-rows: 57px 1fr;
+		grid-template-areas: "toolbar toolbar" "main info";
+
+		.dhx_demo-toolbar {
+			grid-area: toolbar;
+		}
+
+		.dhx_demo-main {
+			grid-area: main;
+		}
+
+		.dhx_demo-info {
+			grid-area: info;
+		}
+	}
+}

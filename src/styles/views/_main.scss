@@ -1,0 +1,55 @@
+.dhx_demo-main {
+	border-right: 1px solid #e4e4e4;
+
+	.dhx_demo-grid {
+		background: #f7f7f7;
+
+		* {
+			border: none !important;
+		}
+
+		.dhx_grid-content {
+			background: #f7f7f7;
+		}
+
+		.dhx_grid-header-cell {
+			font-weight: 500;
+		}
+
+		&__filename {
+			padding-left: 44px;
+		}
+	}
+
+	.dhx_demo_dataview {
+		.dhx_dataview-item--selected {
+			box-shadow: none;
+			border: 0;
+
+			.dhx_demogrid-card__caption {
+				color: #0288d1;
+			}
+
+			.dhx_demogrid-card__image-wrapper {
+				position: relative;
+
+				&:after {
+					content: "";
+					display: block;
+					border: 1px solid #0288d1;
+					border-radius: 2px;
+					position: absolute;
+					top: -2px;
+					bottom: -2px;
+					right: -2px;
+					left: -2px;
+				}
+			}
+		}
+
+		.dhx_dataview-item--focus {
+			box-shadow: none;
+			border: 0;
+		}
+	}
+}

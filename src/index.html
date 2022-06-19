@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta
+			name="description"
+			content="The HTML5 file explorer is a JavaScript file system where users can upload, preview, edit, and organize their files with ease. "
+		/>
+		<meta name="title" content="File Management HTML - DHTMLX File Explorer Demo" />
+		<title>HTML5 File Explorer - DHTMLX JavaScript File Explorer Library</title>
+		<link rel="canonical" href="https://dhtmlx.com/docs/products/demoApps/dhtmlxFileExplorerDemo/" />
+
+		<!-- Icons -->
+		<link
+			rel="stylesheet"
+			href="//cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/4.9.95/css/materialdesignicons.css"
+		/>
+
+		<!-- DHTMLX Library -->
+		<script src="./lib/suite/suite.js"></script>
+		<link rel="stylesheet" href="./lib/suite/suite.css" />
+
+		<!-- App -->
+		<script src="../app.js"></script>
+		<link rel="stylesheet" href="./app.css" />
+
+		<!-- Page styling -->
+		<link rel="manifest" href="./assets/page/site.webmanifest" />
+		<link rel="mask-icon" href="./assets/page/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="msapplication-TileColor" content="#00aba9" />
+		<meta name="theme-color" content="#00aba9" />
+		<link rel="shortcut icon" href="./assets/page/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="./assets/page/icon-16.png" sizes="16x16" />
+		<link rel="icon" href="./assets/page/icon-32.png" sizes="32x32" />
+		<link rel="icon" href="./assets/page/icon-48.png" sizes="48x48" />
+		<link rel="icon" href="./assets/page/icon-96.png" sizes="96x96" />
+		<link rel="icon" href="./assets/page/icon-144.png" sizes="144x144" />
+	</head>
+
+	<body>
+		<section id="top_layout"></section>
+	</body>
+
+	<script>
+		const app = new filemanager.FileExplorer();
+		app.render("#top_layout");
+	</script>
+</html>
