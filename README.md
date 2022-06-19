@@ -565,7 +565,7 @@ REST API를 구동하기 위해서는 다음의 커맨드로 서버를 실행합
 }
 ```
 
-## AWS S3 예제
+## AWS S3 on Express + Node 예제
 
 ### S3 Download on Express
 
