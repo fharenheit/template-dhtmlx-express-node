@@ -1,4 +1,4 @@
-# React UI + Node Application
+# React based DHTMLX + Express based Node Application
 
 ## Application
 
