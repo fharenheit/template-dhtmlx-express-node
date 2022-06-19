@@ -522,6 +522,13 @@ REST API를 구동하기 위해서는 다음의 커맨드로 서버를 실행합
 # node server.js
 ```
 
+ `.js` 파일이 변경되었을때 이를 감지해서 다시 적용하도록 하려면 다음과 같이 실행합니다. `./backends` 디렉토리의 변경사항을 탐지하여 자동으로 적용해줍니다.
+ 
+ ```
+ # npm install -g nodemon
+ # nodemon --watch ./backends server.js
+ ```
+
 ## Structure
 
 * `server.js` - Node JS 기반으로 웹 서버 및 REST API를 제공하는 서버의 Entry Point. 웹 서버를 구동합니다.
