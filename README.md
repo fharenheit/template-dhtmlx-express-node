@@ -1,5 +1,8 @@
 # React based DHTMLX + Express based Node Application
 
+이 예제에서는 UI와 Backend를 별도로 구동하거나, 같이 구동하는 두 가지 방법이 모두 가능하도록 구성했습니다.
+기본 백엔드 및 웹 서버는 Node 기반으로 구성이 됩니다.
+
 ## Application
 
 * React UI (File Browser)
