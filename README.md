@@ -559,3 +559,6 @@ REST API를 구동하기 위해서는 다음의 커맨드로 서버를 실행합
 
 * [Securing Node.js Express REST APIs with Keycloak](https://medium.com/devops-dudes/securing-node-js-express-rest-apis-with-keycloak-a4946083be51)
 * [DHTMLX File Explorer](https://dhtmlx.com/docs/products/demoApps/dhtmlxFileExplorerDemo/)
+* [개발 운영 환경 분리](https://bassyun.tistory.com/39)
+* [Express 디버깅](https://expressjs.com/ko/guide/debugging.html)
+* [nodemon](https://backend-intro.vlpt.us/1/03.html)
